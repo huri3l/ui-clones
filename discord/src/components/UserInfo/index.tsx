@@ -19,7 +19,6 @@ const UserInfo: React.FC = () => {
         <UserData>
           <strong>huriel</strong>
           <span>#7954</span>
-
         </UserData>
       </Profile>
 
