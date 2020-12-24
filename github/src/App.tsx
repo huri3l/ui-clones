@@ -1,3 +1,5 @@
+import 'react-calendar-heatmap/dist/styles.css';
+
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -11,9 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-
-      <h1>Cabeçudo</h1>
-
+      
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/:username" element={<Profile />} />
