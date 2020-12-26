@@ -34,7 +34,7 @@ const RandomCalendar: React.FC = () => {
         />
       </div>
       <span>
-        Random calendar(it doesn't represents the actual data)
+        Random calendar (it doesn't represents the actual data)
       </span>
     </Container>
   );
